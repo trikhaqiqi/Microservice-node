@@ -24,8 +24,8 @@ build:
         manual:
           - src: "*.js"
             dest: .
-    - image: ilyassstri/events-bus
-      context: events-bus
+    - image: ilyassstri/event-bus
+      context: event-bus
       docker:
         dockerfile: Dockerfile
       sync:
